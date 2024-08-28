@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+.bg-sari{
+    background-color: #FFCB04 !important;
+}
+
+.containers{
+    padding-inline: 15%;
+}
+
+.border-turuncu{
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+.border-siyah{
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+
+.outline:focus{
+    outline: 0;
+    border: 2px solid orange;
+}
+
+input::placeholder{
+    color: black !important;
+    font-weight: bold;
+}
+
+.pozisyon{
+    position: absolute;
+    bottom: 50px;
+    right: 25px;
+}
+
+.yukseklik{
+    height: 250px;
+}
+
+/* ! Responsive Tasarim */
+@media screen and (max-width: 480px){
+    .logo-boyut{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .ekran-boyut{
+        width: 150%;
+        height: 350px;
+    }
+    .yazi-boyut{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .ekran-boyut{
+        width: 150%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .footer-resim-boyut{
+        width: 100%;
+    }
+}
